@@ -1,0 +1,526 @@
+body {
+	background-image: url(resources/slike/back1.jpg);
+	background-size: cover;
+	font-family: Georgia;
+	margin: 0px;
+	color: #000000;
+}
+
+.form {
+	position: relative;
+	max-width: 370px;
+	margin: 60px auto 20px auto;
+	padding: 10px 30px 10px 30px;
+}
+
+input, select {
+	border-radius: 5px;
+	border: 0;
+	font-family: Georgia;
+}
+
+.letovi {
+	position: relative;
+	text-align: center;
+	width: 760px;
+	margin: 0 auto;
+}
+
+.meni {
+	background: #b3e701;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0
+		rgba(0, 0, 0, 0.24);
+	font-weight: bold;
+}
+
+.meni:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.meni .meni-levo {
+	float: left;
+	height: 50px;
+}
+
+.meni .meni-levo a {
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	margin-left: 30px;
+}
+
+.meni .meni-levo img {
+	width: 85px;
+	height: 67px;
+	margin: -10px 10px auto 10px;
+}
+
+.meni .meni-desno {
+	float: right;
+}
+
+.meni .meni-desno ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+.meni .meni-desno ul li {
+	float: left;
+	height: 50px;
+}
+
+.meni .meni-desno ul li a {
+	display: block;
+	text-align: center;
+	color: #000000;
+	padding: 16px 18px;
+	text-decoration: none;
+}
+
+.meni-desno a:hover {
+	background: rgba(30, 30, 30, 0.5);
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	box-shadow: inset 0 -2px 0 0 black;
+}
+
+.meni ul li:hover a {
+	color: white;
+}
+
+.rezL .let2 {
+	width: 100%;
+	height: 50px;
+	border: 1px solid white;
+	border-radius: 5px;
+	text-align: justify;
+}
+
+.rezL .let1:active, .rezL .let1:hover {
+	background-color: #2b303d;
+}
+
+.let2 p {
+	width: 100px;
+}
+
+.sadrzaj {
+	text-align: center;
+	color: #414141;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.form {
+	max-width: 370px;
+	margin: 60px auto 20px auto;
+	padding: 10px 30px 10px 30px;
+}
+
+.form input {
+	background: white;
+	width: 340px;
+	margin-bottom: 20px;
+	border: 0;
+	padding: 15px;
+	color: #2b303d;
+	font-size: 14px;
+}
+
+.form .dugme {
+	background: #b3e701;
+	width: 370px;
+	color: #000000;
+	font-weight: bold;
+}
+
+.adminLet #dugme {
+	background: #b3e701;
+	width: 250px;
+	color: #000000;
+	font-weight: bold;
+}
+
+.traziLetove {
+	max-width: 696px;
+	margin: 0 auto;
+	padding: 10px 30px 10px 30px;
+}
+
+.traziLetove input, .traziLetove select {
+	background: white;
+	padding: 15px;
+	color: #2b303d;
+	font-size: 14px;
+}
+
+.traziLetove .mesto {
+	width: 280px;
+}
+
+.traziLetove .putnici {
+	width: 170px;
+}
+
+.traziLetove .radio-inline {
+	float: left;
+	text-align: left;
+	margin: 10px auto;
+	color: #ffffff;
+}
+
+.traziLetove .radio-inline span {
+	margin-left: 20px;
+}
+
+.traziLetove .dugmeT {
+	background: #b3e701;
+	width: 696px;
+	color: #000000;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	float: center;
+}
+
+.rezL .dugme {
+	width: 300px;
+	height: 40px;
+	border: none;
+	background-color: #b3e701;
+	color: #000000;
+	font-weight: bold;
+}
+
+.dugme:hover, .dugmeT:hover, .formRez.dugme:hover, .adminLet #dugme:hover
+	{
+	background: #6c8b01;
+	cursor: pointer;
+	color: #ffffff;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}
+
+.logoSlika {
+	margin-bottom: -19px;
+}
+
+.log {
+	height: 30px;
+	width: 200px;
+	padding: 4px 4px;
+	border: none;
+	border-radius: 2px;
+}
+
+h1 {
+	color: #000000;
+}
+
+h2 {
+	color: #000000;
+}
+
+.pretraga {
+	position: relative;
+	margin: 0 auto 100px;
+	float: center;
+	max-width: 100%;
+	text-align: center;
+}
+
+.letoviStranica {
+	float: center;
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.letoviStranica table {
+	margin: 0 auto;
+	border: 1px solid black;
+	border-spacing: 0;
+}
+
+.letoviStranica td {
+	width: 150px;
+}
+
+.admin {
+	width: 350px;
+	margin: 100px auto;
+	color: white;
+}
+
+.admin .rezerv {
+	padding: 15px;
+	text-align: left;
+	font-size: 20px;
+}
+
+.datum, .datum1, .datum2 {
+	width: 280px;
+}
+
+.datum, .datum1 {
+	float: left;
+}
+
+.datum2 {
+	float: right;
+}
+
+.ppp {
+	float: left;
+	color: #000000;
+	font-weight: bold;
+	margin: 10px 0 10px 25px;
+}
+
+.ppp label:hover, label:active {
+	cursor: pointer;
+}
+
+.rezL {
+	position: relative;
+	max-width: 1160px;
+	margin: 60px auto 20px auto;
+	padding: 30px 30px 30px 30px;
+	color: #000000;
+}
+
+.rezL .let2 {
+	width: 100%;
+	height: 50px;
+	border: 1px solid white;
+	border-radius: 5px;
+	text-align: justify;
+}
+
+.rezL .let1:active, .rezL .let1:hover {
+	background-color: #2b303d;
+}
+
+.rezL table {
+	margin: 0 auto;
+	align: center;
+	border-radius: 5px;
+	border: 1px solid white;
+	color: #000000;
+	border-spacing: 0;
+}
+
+.rezL th, td {
+	width: 120px;
+	text-align: center;
+	height: 25px;
+}
+
+.rezL th {
+	border-bottom: 1px solid white;
+}
+
+.rezervacije table {
+	position: relative;
+	max-width: 1160px;
+	margin: 60px auto 20px auto;
+	padding: 30px 30px 30px 30px;
+	color: #000000;
+	border-spacing: 0;
+}
+
+.rezervacije span {
+	font-size: 25px;
+	margin-bottom: 30px;
+}
+
+.rezervacije th {
+	width: 100px;
+}
+
+.letoviAd table {
+	position: relative;
+	max-width: 1160px;
+	margin: 60px auto 20px auto;
+	padding: 30px 30px 30px 30px;
+	color: #000000;
+	border-spacing: 0;
+}
+
+.letoviAd span {
+	font-size: 25px;
+	margin-bottom: 30px;
+}
+
+.letoviAd th {
+	width: 100px;
+}
+
+.formRez {
+	padding: 10px 30px 30px 30px;
+	max-width: 800px;
+	margin: 60px auto 20px auto;
+}
+
+.formRez input {
+	width: 240px;
+	padding: 10px;
+	margin: 10px 15px 20px 0;
+	color: #2b303d;
+	font-size: 14px;
+}
+
+.formRez select {
+	width: 240px;
+	height: 37px;
+	padding: 10px;
+	margin: 10px 15px 20px 0;
+	color: #2b303d;
+	font-size: 14px;
+}
+
+.formRez .dugme {
+	width: 180px;
+	margin: 0;
+	background-color: #cfe701;
+	font-weight: bold;
+}
+
+.rezervacije th, .letoviAd th {
+	border-bottom: 1px solid white;
+}
+
+.formRez1 {
+	padding: 10px 30px 30px 30px;
+	max-width: 1160px;
+	margin: 60px auto 20px auto;
+}
+
+.formRez1 input, select {
+	width: 188px;
+	padding: 10px;
+	margin: 10px 15px 20px 0;
+	color: #2b303d;
+	font-size: 14px;
+}
+
+.formRez1 .dugme {
+	width: 180px;
+	margin: 0;
+	background-color: #cfe701;
+	font-weight: bold;
+}
+
+.formAdm {
+	padding: 20px;
+	max-width: 500px;
+	margin: 60px auto 20px auto;
+}
+
+.formAdm table {
+	width: 100%;
+	border-spacing: 0;
+}
+
+.formAdm input {
+	padding: 15px;
+	width: 200px;
+	margin-bottom: 10px;
+}
+
+.adminLet #dugme {
+	background-color: #cfe701;
+	margin-top: 15px;
+	font-weight: bold;
+}
+
+.formAdm #dod {
+	background-color: #ffd600;
+}
+
+.formRezer input, .formLet input {
+	height: 30px;
+}
+
+.formRezer .dugmeRezer, .formLet .dugmeL {
+	background-color: #ff0000;
+	font-weight: bold;
+	color: #ffffff;
+	margin: 0 10px 0 5px;
+}
+
+.formRezer .dugmeRezer:hover, .formLet .dugmeL:hover {
+	background-color: #e60000;
+	cursor: pointer;
+}
+
+.form, .letovi, .rezL, .rezervacije table, .formRez, .formRez1, .formAdm,
+	.letoviAd table {
+	border-radius: 10px;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5), 0 5px 5px 0
+		rgba(0, 0, 0, 0.24);
+	background: rgba(30, 30, 30, 0.8);
+	text-align: center;
+}
+
+.letoviRez tr:hover, .letoviRezer tr:hover {
+	background: rgba(30, 30, 30, 0.8);
+	cursor: pointer;
+}
+
+.highlight_row {
+	background: rgba(30, 30, 30, 0.6);
+}
+
+#pov td {
+	border-top: 1px solid white;
+}
+
+#pov1 td {
+	border-bottom: 1px solid white;
+}
+
+#prLet td {
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+}
+
+#pov td, #pov1 td, #prLet td {
+	background: rgba(0, 0, 0, 0.3);
+}
+
+.pos {
+	color: blue;
+	text-decoration: none;
+}
+
+.rzL {
+	font-size: 18px;
+}
+
+.logo {
+	width: 70px;
+	height: 65px;
+	margin: 0 15px auto 15px;
+}
+
+#porDob {
+	font-size: 25px;
+	color: #cfe701;
+	margin-top: 0;
+}
+
+.imePr {
+	color: #000000;
+	font-size: 20px;
+	margin-right: 10px;
+}
+
+#spanL {
+	color: #ffffff;
+}
